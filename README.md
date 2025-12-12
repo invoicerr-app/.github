@@ -25,9 +25,19 @@ Invoicerr is built on the principle that invoicing should be **simple, transpare
 
 ### 🔌 Integrations
 
-- **Signature**: Digital signature support for invoices
-- **Webhooks**: Real-time event notifications and integrations
-- **Storage**: Flexible storage solutions for documents and data
+- **Signature**: 
+  - [Documenso](https://documenso.com/) - Open-source document signing platform
+- **Webhooks**: Real-time event notifications to:
+  - Discord
+  - Slack
+  - Microsoft Teams
+  - Mattermost
+  - Rocket.Chat
+  - Zapier
+  - Generic/Custom webhooks
+- **Storage**: 
+  - Amazon S3 (and S3-compatible services)
+  - Local Storage
 
 ## 🛠️ Technology Stack
 
