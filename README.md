@@ -43,8 +43,6 @@ Invoicerr is built on the principle that invoicing should be **simple, transpare
 ### Infrastructure
 - **Containerization**: Docker
 - **CI/CD**: GitHub Actions
-- **Cloud**: AWS / Google Cloud Platform / Self-hosted options
-- **Monitoring**: Prometheus + Grafana
 
 ## 📋 Project Status
 
@@ -54,20 +52,19 @@ Invoicerr is built on the principle that invoicing should be **simple, transpare
 - [x] Basic authentication system
 - [x] Database schema design
 - [x] Core API endpoints
+- [x] Invoice creation and management UI
+- [x] PDF generation service
+- [x] Email notification system
+- [x] Multi-language support (i18n)
 
 ### 🚧 In Progress
-- [ ] Invoice creation and management UI
-- [ ] PDF generation service
-- [ ] Email notification system
 - [ ] Payment gateway integration
-- [ ] Multi-language support (i18n)
 - [ ] Comprehensive test coverage
 
 ### 📝 TODO
 - [ ] Recurring invoices functionality
 - [ ] Expense tracking module
 - [ ] Time tracking integration
-- [ ] Mobile application (React Native)
 - [ ] Advanced reporting and analytics
 - [ ] API documentation (OpenAPI/Swagger)
 - [ ] Third-party integrations (Stripe, PayPal, etc.)
@@ -89,9 +86,8 @@ Please check our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 ## 📦 Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- PostgreSQL (v14 or higher)
-- Docker (optional, for containerized setup)
+- Docker
+- Docker Compose
 
 ### Installation
 
@@ -102,42 +98,27 @@ git clone https://github.com/invoicerr-app/invoicerr.git
 # Navigate to the project directory
 cd invoicerr
 
-# Install dependencies
-npm install
+# Edit environment variables in docker-compose.yml
+# Configure your settings as needed
 
-# Set up environment variables
-cp .env.example .env
+# Start the application
+docker compose up
 
-# Run database migrations
-npm run migrate
-
-# Start the development server
-npm run dev
+# The application will be available at http://localhost (port 80 by default)
 ```
-
-## 📖 Documentation
-
-- [User Guide](docs/user-guide.md)
-- [API Documentation](docs/api.md)
-- [Development Setup](docs/development.md)
-- [Deployment Guide](docs/deployment.md)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is dual-licensed:
+- **[AGPL-3.0 License](https://github.com/invoicerr-app/invoicerr?tab=AGPL-3.0-1-ov-file)** - For open source use
+- **[Commercial License](https://github.com/invoicerr-app/invoicerr/blob/main/LICENSE.COMMERCIAL.md)** - For commercial/proprietary use
 
-## 🔗 Links
-
-- **Website**: [invoicerr.app](https://invoicerr.app)
-- **Documentation**: [docs.invoicerr.app](https://docs.invoicerr.app)
-- **Community**: [Discord](https://discord.gg/invoicerr) | [Twitter](https://twitter.com/invoicerr)
+See the respective LICENSE files for details.
 
 ## 💬 Support
 
 Need help? Have questions?
 
-- 📧 Email: support@invoicerr.app
-- 💬 Discord: [Join our community](https://discord.gg/invoicerr)
 - 🐛 Issues: [GitHub Issues](https://github.com/invoicerr-app/invoicerr/issues)
 
 ---
