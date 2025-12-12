@@ -23,6 +23,12 @@ Invoicerr is built on the principle that invoicing should be **simple, transpare
 - **Dashboard & Analytics**: Get insights into your business performance
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
+### 🔌 Integrations
+
+- **Signature**: Digital signature support for invoices
+- **Webhooks**: Real-time event notifications and integrations
+- **Storage**: Flexible storage solutions for documents and data
+
 ## 🛠️ Technology Stack
 
 ### Frontend
