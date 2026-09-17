@@ -1,142 +1,67 @@
-# Invoicerr
+[![Invoicerr](https://invoicerr.app/og.jpg)](https://invoicerr.app)
 
-> A modern, open-source invoicing application designed to simplify billing and financial management for freelancers and small businesses.
+Open-source invoicing you can host yourself or use in our cloud: quotes, invoices, payments and the
+paperwork that follows, including the e-invoicing rules of the country you bill from.
 
-## 🎯 Philosophy
+[Website](https://invoicerr.app) · [Cloud app](https://my.invoicerr.app) · [Documentation](https://docs.invoicerr.app) · [Source code](https://github.com/invoicerr-app/invoicerr)
 
-Invoicerr is built on the principle that invoicing should be **simple, transparent, and efficient**. We believe that:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://invoicerr.app/screens/dashboard-dark.webp">
+  <img alt="The Invoicerr dashboard" src="https://invoicerr.app/screens/dashboard.webp">
+</picture>
 
-- **Simplicity First**: Creating and managing invoices shouldn't require a degree in accounting. Our interface is intuitive and straightforward.
-- **Open Source**: Transparency builds trust. Our codebase is open for inspection, contribution, and self-hosting.
-- **Privacy-Focused**: Your financial data belongs to you. We prioritize data privacy and give you control over where your information lives.
-- **Extensible**: Built with modern architecture to allow customization and integration with other tools.
-- **Community-Driven**: We value feedback and contributions from our users and developers.
+## What you get
 
-## 🚀 Features
+- Quotes, invoices, credit notes, purchase orders, goods receipts, expenses and received invoices, all
+  on one document engine.
+- Payments, deposits, instalments, bank statement import with automatic matching, and online payment
+  methods.
+- Clients with their own portal, account statements and aged balance.
+- An article catalogue with stock, project time tracking that turns into invoice lines, and recurring
+  documents.
+- PDF generation, e-invoice XML (Factur-X, UBL, CII, XRechnung, Peppol BIS, FatturaPA, FA(3)) and
+  national transmission channels: PDP and Chorus Pro in France, KSeF in Poland, SdI in Italy.
+- A legal archive per issued document, kept for as long as the country's own rule asks.
+- E-mail/password, OIDC/SSO or API key sign-in, multi-company, role-based access, webhooks, a REST API,
+  an MCP server and a plugin system.
+- 18 interface languages, multi-currency, light and dark themes, installable as a PWA.
 
-- **Invoice Management**: Create, edit, and send professional invoices
-- **Client Management**: Organize and track client information
-- **Payment Tracking**: Monitor payment status and history
-- **Multi-Currency Support**: Handle invoices in different currencies
-- **PDF Export**: Generate professional PDF invoices
-- **Customizable Templates**: Personalize invoice appearance to match your brand
-- **Dashboard & Analytics**: Get insights into your business performance
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
+A country is data, not code. Germany, France, Italy, Poland and Portugal ship with their catalogues
+filled in, and every fact carries the legal text it comes from. See the
+[country support matrix](https://docs.invoicerr.app/docs/developer-guide/country-support).
 
-### 🔌 Integrations
+## Two ways to run it
 
-- **Signature**: 
-  - [Documenso](https://documenso.com/) - Open-source document signing platform
-- **Webhooks**: Real-time event notifications to:
-  - Discord
-  - Slack
-  - Microsoft Teams
-  - Mattermost
-  - Rocket.Chat
-  - Zapier
-  - Generic/Custom webhooks
-- **Storage**: 
-  - Amazon S3 (and S3-compatible services)
-  - Local Storage
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **Framework**: React.js with TypeScript
-- **State Management**: Redux Toolkit
-- **UI Library**: Tailwind CSS / Material-UI
-- **Build Tool**: Vite
-- **Testing**: Jest + React Testing Library
-
-### Backend
-- **Runtime**: Node.js
-- **Framework**: Express.js / NestJS
-- **Database**: PostgreSQL
-- **ORM**: Prisma / TypeORM
-- **Authentication**: JWT / OAuth 2.0
-- **API**: RESTful API / GraphQL
-
-### Infrastructure
-- **Containerization**: Docker
-- **CI/CD**: GitHub Actions
-
-## 📋 Project Status
-
-### ✅ Done
-- [x] Project architecture design
-- [x] Repository structure setup
-- [x] Basic authentication system
-- [x] Database schema design
-- [x] Core API endpoints
-- [x] Invoice creation and management UI
-- [x] PDF generation service
-- [x] Email notification system
-- [x] Multi-language support (i18n)
-
-### 🚧 In Progress
-- [ ] Payment gateway integration
-- [ ] Comprehensive test coverage
-
-### 📝 TODO
-- [ ] Recurring invoices functionality
-- [ ] Expense tracking module
-- [ ] Time tracking integration
-- [ ] Advanced reporting and analytics
-- [ ] API documentation (OpenAPI/Swagger)
-- [ ] Third-party integrations (Stripe, PayPal, etc.)
-- [ ] Multi-tenant support
-- [ ] Role-based access control (RBAC)
-- [ ] Automated backup system
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Whether it's:
-
-- 🐛 Bug reports
-- 💡 Feature requests
-- 📝 Documentation improvements
-- 🔧 Code contributions
-
-Please check our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
-## 📦 Getting Started
-
-### Prerequisites
-- Docker
-- Docker Compose
-
-### Installation
+| | Cloud | Self-hosted |
+| --- | --- | --- |
+| Where | [my.invoicerr.app](https://my.invoicerr.app) | Your own server, with Docker or the Helm chart |
+| Price | From $15 a month, 14-day free trial | Free, every feature, no seat limit |
+| Start | [Start a free trial](https://my.invoicerr.app) | [Read the install guide](https://docs.invoicerr.app/docs/user-guide/docker-installation) |
 
 ```bash
-# Clone the repository
-git clone https://github.com/invoicerr-app/invoicerr.git
-
-# Navigate to the project directory
-cd invoicerr
-
-# Edit environment variables in docker-compose.yml
-# Configure your settings as needed
-
-# Start the application
-docker compose up
-
-# The application will be available at http://localhost (port 80 by default)
+docker pull ghcr.io/invoicerr-app/invoicerr:latest
 ```
 
-## 📄 License
+## Repositories
 
-This project is dual-licensed:
-- **[AGPL-3.0 License](https://github.com/invoicerr-app/invoicerr?tab=AGPL-3.0-1-ov-file)** - For open source use
-- **[Commercial License](https://github.com/invoicerr-app/invoicerr/blob/main/LICENSE.COMMERCIAL.md)** - For commercial/proprietary use
+| Repository | What it is |
+| --- | --- |
+| [invoicerr](https://github.com/invoicerr-app/invoicerr) | The application: NestJS backend, React frontend, documentation and Helm chart |
+| [landing](https://github.com/invoicerr-app/landing) | The website at [invoicerr.app](https://invoicerr.app) |
+| [ocr-image](https://github.com/invoicerr-app/ocr-image) | Self-hosted OCR service for received invoices, ocrmypdf and Tesseract, fully local |
+| [plugin-example](https://github.com/invoicerr-app/plugin-example) | A minimal plugin to start from |
 
-See the respective LICENSE files for details.
+## Contributing
 
-## 💬 Support
+Issues and pull requests are welcome on the
+[main repository](https://github.com/invoicerr-app/invoicerr/issues). The
+[local development guide](https://docs.invoicerr.app/docs/developer-guide/local-development) covers the
+setup and the test suites. Translations are managed on
+[Weblate](https://hosted.weblate.org/engage/invoicerr/).
 
-Need help? Have questions?
+## License
 
-- 🐛 Issues: [GitHub Issues](https://github.com/invoicerr-app/invoicerr/issues)
-
----
-
-**Made with ❤️ by the Invoicerr Team**
+Invoicerr is dual-licensed:
+[AGPL-3.0](https://github.com/invoicerr-app/invoicerr/blob/dev/LICENSE) for open-source use, and a
+[commercial license](https://github.com/invoicerr-app/invoicerr/blob/dev/LICENSE.COMMERCIAL.md) for
+offering it as a paid service.
