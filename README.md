@@ -7,12 +7,10 @@ organization. GitHub shows [`profile/README.md`](./profile/README.md) on the org
 
 Looking for the product itself?
 
-| | |
-| --- | --- |
-| The application | [invoicerr-app/invoicerr](https://github.com/invoicerr-app/invoicerr) |
-| Website | [invoicerr.app](https://invoicerr.app) |
-| Cloud app | [my.invoicerr.app](https://my.invoicerr.app) |
-| Documentation | [docs.invoicerr.app](https://docs.invoicerr.app) |
+- The application: [invoicerr-app/invoicerr](https://github.com/invoicerr-app/invoicerr)
+- Website: [invoicerr.app](https://invoicerr.app)
+- Cloud app: [my.invoicerr.app](https://my.invoicerr.app)
+- Documentation: [docs.invoicerr.app](https://docs.invoicerr.app)
 
 ## What Invoicerr is
 
