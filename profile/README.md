@@ -1,4 +1,4 @@
-[![Invoicerr](https://invoicerr.app/og.jpg)](https://invoicerr.app)
+[![Invoicerr](https://raw.githubusercontent.com/invoicerr-app/brand/main/social/og.jpg)](https://invoicerr.app)
 
 Open-source invoicing you can host yourself or use in our cloud: quotes, invoices, payments and the
 paperwork that follows, including the e-invoicing rules of the country you bill from.
