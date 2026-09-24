@@ -1,4 +1,4 @@
-[![Invoicerr](https://invoicerr.app/og.jpg)](https://invoicerr.app)
+[![Invoicerr](https://raw.githubusercontent.com/invoicerr-app/brand/main/social/og.jpg)](https://invoicerr.app)
 
 # invoicerr-app/.github
 
@@ -32,7 +32,10 @@ The full feature list, screenshots and the quick start are in the
 1. Edit [`profile/README.md`](./profile/README.md).
 2. Keep it in line with the application's README and with [invoicerr.app](https://invoicerr.app): same
    tagline, same feature list, same prices.
-3. Images are served from `invoicerr.app` (`/og.jpg` and `/screens/`), so they update with the website.
+3. The banner comes from [invoicerr-app/brand](https://github.com/invoicerr-app/brand)
+   (`social/og.jpg`), the one place the organisation's brand images live, so it never drifts from
+   the card the website and the documentation use. Product screenshots still come from
+   `invoicerr.app` (`/screens/`), so they update with the website.
 
 ## License
 
