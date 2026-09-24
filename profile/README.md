@@ -1,9 +1,10 @@
 [![Invoicerr](https://raw.githubusercontent.com/invoicerr-app/brand/main/social/og.jpg)](https://invoicerr.app)
 
-Open-source invoicing you can host yourself or use in our cloud: quotes, invoices, payments and the
-paperwork that follows, including the e-invoicing rules of the country you bill from.
+Open-source invoicing you can host yourself today, or use in our cloud when it opens in November
+2026: quotes, invoices, payments and the paperwork that follows, including the e-invoicing rules of
+the country you bill from.
 
-[Website](https://invoicerr.app) · [Cloud app](https://my.invoicerr.app) · [Documentation](https://docs.invoicerr.app) · [Source code](https://github.com/invoicerr-app/invoicerr)
+[Website](https://invoicerr.app) · [Waiting list](https://my.invoicerr.app) · [Documentation](https://docs.invoicerr.app) · [Source code](https://github.com/invoicerr-app/invoicerr)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://invoicerr.app/screens/dashboard-dark.webp">
@@ -32,11 +33,11 @@ filled in, and every fact carries the legal text it comes from. See the
 
 ## Two ways to run it
 
-| | Cloud | Self-hosted |
+| | Cloud, from November 2026 | Self-hosted, today |
 | --- | --- | --- |
-| Where | [my.invoicerr.app](https://my.invoicerr.app) | Your own server, with Docker or the Helm chart |
-| Price | From $15 a month, 14-day free trial | Free, every feature, no seat limit |
-| Start | [Start a free trial](https://my.invoicerr.app) | [Read the install guide](https://docs.invoicerr.app/docs/user-guide/docker-installation) |
+| Where | [my.invoicerr.app](https://my.invoicerr.app), not open yet | Your own server, with Docker or the Helm chart |
+| Price | From $15 a month, 14-day free trial once it opens | Free, every feature, no seat limit |
+| Start | [Join the waiting list](https://my.invoicerr.app) | [Read the install guide](https://docs.invoicerr.app/docs/user-guide/docker-installation) |
 
 ```bash
 docker pull ghcr.io/invoicerr-app/invoicerr:latest
