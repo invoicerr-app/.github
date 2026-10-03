@@ -4,7 +4,7 @@ Open-source invoicing you can host yourself today, or use in our cloud when it o
 2026: quotes, invoices, payments and the paperwork that follows, including the e-invoicing rules of
 the country you bill from.
 
-[Website](https://invoicerr.app) · [Waiting list](https://my.invoicerr.app) · [Documentation](https://docs.invoicerr.app) · [Source code](https://github.com/invoicerr-app/invoicerr)
+[Website](https://invoicerr.app) · [Waiting list](https://my.invoicerr.app) · [Documentation](https://docs.invoicerr.app) · [Source code](https://github.com/invoicerr-app/invoicerr) · [Discord](https://discord.gg/6sDwqXFqnK)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://invoicerr.app/screens/dashboard-dark.webp">
